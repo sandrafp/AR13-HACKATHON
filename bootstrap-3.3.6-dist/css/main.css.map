@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAS;EAAE,gBAAgB,EAAE,eAAe;;ACI5C,sCAAsC",
+"sources": ["sass/layout/_section.scss","sass/_main.scss"],
+"names": [],
+"file": "main.css"
+}
