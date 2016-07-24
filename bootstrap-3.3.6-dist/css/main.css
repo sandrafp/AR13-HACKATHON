@@ -53,19 +53,15 @@ ul.redes i {
   line-height: 37px;
   margin-right: 2px; }
 
-#redes-uno {
-  background: #35559c; }
-
-#redes-dos {
-  background: #01a5eb; }
-
-#redes-tres {
-  background: #0ECCB0; }
-
-#redes-cuatro {
-  background: #2F343C; }
-
 /*iconos redes-sociales*/
+/*Estilos home banner*/
+.banner-principal {
+  margin-bottom: 15px; }
+
+.banner-caption {
+  font-size: 24px;
+  color: #E51960; }
+
 /*# sourceMappingURL=_main.scss.map */
 
 /*# sourceMappingURL=main.css.map */
