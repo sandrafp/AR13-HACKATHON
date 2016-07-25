@@ -1,40 +1,47 @@
-/*camy*/
+#header {
+    background-color: black !important;
+  nav {
+    background-color: black !important;
+  }
+  .navbar-default {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    padding: 40px;
+    color:white;
+    background: black !important;
 
-.navbar-default .navbar-nav li a {
-	font-family: 'Playfair Display', serif;
-	text-transform: uppercase;
-	color: black;
-}
-
-/*.navbar-brand img {
-	width: 50px;
-	height: 50px;
-}*/
-
-.navbar-default {
-	padding: 40px;
-	background-color: black;
-}
-
-ul#ejm2 li a{
-    position: relative;
-    font-weight:bold;
-    color:#fff;
-    margin: 0px 15px;
-}
-ul#ejm2 li a:after{
-    position: absolute;
-    bottom: 7px;
-    left: 0px;
-    width: 100%;
-    height: 4px;
-    background-color: #E51960;
-    content: "";
-    opacity: 0;
-    transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
-    transform: translateY(20px);        
-}
-ul#ejm2 li a:hover:after{
-    opacity:1;
-    transform: translateY(15px)
+    .navbar-brand {
+      background-color: black !important;
+      img {
+          width: 150px;
+          position: relative;
+          bottom: 40px;
+      }
+    }
+      ul#ejm2 li a{
+          position: relative;
+          font-weight:bold;
+          color:white;
+          margin: 0px 15px;
+      }
+      ul#ejm2 li a:after{
+          position: absolute;
+          bottom: 7px;
+          left: 0px;
+          width: 100%;
+          height: 4px;
+          background-color: #E51960;
+          content: "";
+          opacity: 0;
+          transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+          transform: translateY(20px);        
+      }
+      ul#ejm2 li a:hover:after{
+          opacity:1;
+          transform: translateY(15px)
+      }
+  }
+  .navbar {
+    background-color: black !important;
+  }
 }
