@@ -74,7 +74,7 @@ ul.redes i {
 
 .photo_galery {
   width: 100%;
-  height: 220px; }
+  height: 150px; }
 
 .capa-color {
   position: relative; }
@@ -97,7 +97,7 @@ ul.redes i {
   border-radius: 50%;
   line-height: 25px;
   border: 2px solid #ffffff;
-  margin-top: 90px;
+  margin-top: 50px;
   padding: 15px; }
 
 .slick-prev:before {
