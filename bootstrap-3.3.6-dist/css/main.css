@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*colores*/
 /*redes-sociales*/
 /*efectos*/
@@ -132,5 +133,80 @@ ul.redes i {
     padding-bottom: 30px;
     font-size: 24px; } }
 /*# sourceMappingURL=_main.scss.map */
+=======
+header {
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 100; }
+  header .navbar-toggle {
+    background: #F61C67;
+    margin-top: 30px; }
+    header .navbar-toggle .icon-bar {
+      background: white; }
+  header .navbar-nav {
+    padding-top: 20px; }
+    header .navbar-nav a {
+      color: white;
+      font-size: 25px;
+      font-family: 'Open Sans Condensed', sans-serif; }
+    header .navbar-nav a:hover {
+      background-color: rgba(245, 27, 102, 0.5); }
+    header .navbar-nav a :active {
+      background-color: rgba(245, 27, 102, 0.8); }
+
+.caja-redes {
+  padding-top: 40px; }
+  .caja-redes .comment {
+    padding: -20px 0 0 20px; }
+  .caja-redes .first {
+    padding-left: 100px; }
+  .caja-redes .icons {
+    color: #F61C67; }
+
+.banner1 {
+  padding-top: 100px; }
+
+.end-seccion {
+  background: linear-gradient(bottom, #F65D92, white);
+  background: -webkit-linear-gradient(bottom, #F65D92, white);
+  background: -moz-linear-gradient(bottom, #F65D92, white);
+  background: -o-linear-gradient(bottom, #F65D92, white);
+  background: -ms-linear-gradient(bottom, #F65D92, white);
+  margin-top: 20px;
+  padding: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px; }
+  .end-seccion a {
+    text-decoration: none;
+    color: black; }
+  .end-seccion .line-border {
+    border-top: 1px solid #A9A9A9;
+    padding-top: 20px; }
+  .end-seccion .end-titles {
+    list-style: none;
+    padding: 0; }
+    .end-seccion .end-titles li {
+      margin-bottom: 10px; }
+    .end-seccion .end-titles .icons {
+      margin-right: 5px; }
+  .end-seccion .red-13 {
+    margin: 30px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #A9A9A9; }
+    .end-seccion .red-13 img {
+      width: 83px;
+      height: 52px; }
+  .end-seccion .redes ul {
+    list-style: none;
+    padding-left: 20px; }
+  .end-seccion .development {
+    color: white; }
+    .end-seccion .development h5 {
+      margin-bottom: 0; }
+    .end-seccion .development img {
+      width: 120px;
+      height: 60px; }
+>>>>>>> bf1bcdbe5f487b4e103a631ba7c31b6c12fd66dc
 
 /*# sourceMappingURL=main.css.map */
