@@ -100,12 +100,6 @@ ul.redes i {
   margin-top: 50px;
   padding: 15px; }
 
-.slick-prev:before {
-  color: #e51960; }
-
-.slick-next:before {
-  color: #e51960; }
-
 /*fin galeria*/
 /*ANUNCIOS*/
 .anuncio-responsive {
@@ -128,6 +122,15 @@ ul.redes i {
 
 .banner1 {
   padding-top: 100px; }
+
+/* Carrusel */
+.carousel-control {
+  padding-top: 5%;
+  width: 5%; }
+
+.item .col-sm-2 img {
+  height: 100px;
+  width: 300px; }
 
 /*iconos redes-sociales*/
 /*Estilos home banner*/
