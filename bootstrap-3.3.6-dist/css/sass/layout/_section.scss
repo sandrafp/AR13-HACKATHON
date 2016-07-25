@@ -1,16 +1,21 @@
 .caja-redes{
 	padding-top: 40px;
-	.comment{
-		padding: -20px 0 0 20px;
-	}
 	.first{
 		padding-left: 100px;
 	}
-	.icons{
+	a{
+		text-decoration: none;
 		color: #F61C67
+	}
+	a :hover{
+		color: white;
 	}
 }
 .banner1{
 	padding-top: 100px;
 }
-
+.banner2{
+	.fb-comments{
+		width: 500px;
+	}
+}
