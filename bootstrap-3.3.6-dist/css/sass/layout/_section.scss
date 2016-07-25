@@ -14,6 +14,7 @@ ul.redes li {
 ul.redes li> a {
 	color: #ffffff;
     display: inline-block;
+
     height: 35px;
     line-height: 35px;
     margin-right: 5px;
@@ -96,4 +97,5 @@ ul.redes i {display: block;font-size: 21px;line-height: 37px;margin-right: 2px;}
 .banner1{
 	padding-top: 100px;
 }
+.face-box { border: 2px solid $facebook; margin-top: 10px; cursor: pointer; }
 

@@ -129,6 +129,11 @@ ul.redes i {
 .banner1 {
   padding-top: 100px; }
 
+.face-box {
+  border: 2px solid #35559c;
+  margin-top: 10px;
+  cursor: pointer; }
+
 /*iconos redes-sociales*/
 /*Estilos home banner*/
 .banner-principal {
@@ -143,6 +148,92 @@ ul.redes i {
   .banner-caption {
     padding-bottom: 30px;
     font-size: 24px; } }
+.caja-redes {
+  padding-top: 40px; }
+  .caja-redes .first {
+    padding-left: 120px; }
+  .caja-redes a {
+    text-decoration: none;
+    color: #F61C67; }
+  .caja-redes a :hover {
+    color: white; }
+
+.banner1 {
+  padding-top: 120px;
+  padding-bottom: 30px; }
+
+.banner2 {
+  background: #E976CE;
+  padding: 30px; }
+
+header {
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 100; }
+  header .navbar-toggle {
+    background: #F61C67;
+    margin-top: 30px; }
+    header .navbar-toggle .icon-bar {
+      background: white; }
+  header .navbar-nav {
+    padding-top: 20px; }
+    header .navbar-nav a {
+      color: white;
+      font-size: 25px;
+      font-family: 'Open Sans Condensed', sans-serif; }
+    header .navbar-nav a:hover {
+      background-color: rgba(245, 27, 102, 0.5); }
+    header .navbar-nav a :active {
+      background-color: rgba(245, 27, 102, 0.8); }
+
+.end-seccion {
+  background: linear-gradient(bottom, #F65D92, white);
+  background: -webkit-linear-gradient(bottom, #F65D92, white);
+  background: -moz-linear-gradient(bottom, #F65D92, white);
+  background: -o-linear-gradient(bottom, #F65D92, white);
+  background: -ms-linear-gradient(bottom, #F65D92, white);
+  margin-top: 20px;
+  padding: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px; }
+  .end-seccion a {
+    text-decoration: none;
+    color: black; }
+  .end-seccion .line-border {
+    border-top: 1px solid #A9A9A9;
+    padding-top: 20px; }
+  .end-seccion .end-titles {
+    list-style: none;
+    padding: 0; }
+    .end-seccion .end-titles li {
+      margin-bottom: 10px; }
+    .end-seccion .end-titles .icons {
+      margin-right: 5px; }
+  .end-seccion .red-13 {
+    margin: 30px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #A9A9A9; }
+    .end-seccion .red-13 img {
+      width: 83px;
+      height: 52px; }
+  .end-seccion .redes ul {
+    list-style: none;
+    padding-left: 0; }
+    .end-seccion .redes ul li {
+      display: inline; }
+      .end-seccion .redes ul li a {
+        color: #F61C67; }
+      .end-seccion .redes ul li a:hover {
+        color: #FC9DE2; }
+  .end-seccion .development {
+    color: white; }
+    .end-seccion .development h5 {
+      margin-bottom: 0; }
+    .end-seccion .development img {
+      width: 120px;
+      height: 60px; }
+
 /*# sourceMappingURL=_main.scss.map */
 
 /*# sourceMappingURL=main.css.map */
