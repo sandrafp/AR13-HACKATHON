@@ -1,6 +1,9 @@
 /*colores*/
 /*redes-sociales*/
 /*efectos*/
+#btn {
+  background-color: black; }
+
 nav.navbar.navbar-default {
   background: #e51960 !important; }
 

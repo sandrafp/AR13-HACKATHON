@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>AR 13 videos</title>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
+  	<link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css">
 		<link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -91,7 +93,95 @@
 				</div><!--container-->
 			</div> <!--capa -->
 		</section> <!--section conni-->
-						
+
+		<!-- Section CAROUSEL -->
+		<div class="container">
+    <div class="row">
+      <div class="col-md-10">
+        <div class="videos slick-initialized slick-slider slick-dotted" role="toolbar">
+          <button id="btn" type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: block;">Previous</button>
+          <!-- Contiene el slider -->
+          <div aria-live="polite" class="slick-list draggable">
+            <div class="slick-track" role="listbox" style="opacity: 1; width: 3311px; transform: translate3d(-1419px, 0px, 0px);">
+              <div class="slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" tabindex="-1" style="width: 473px;">
+                <!-- otro item -->
+                <a href="#link-al-video" tabindex="-1">
+                  <img src="https://api.adorable.io/avatars/150/?rand=2" alt="video 1">
+                  <h3>Titulo del video 2</h3>
+                  <p>Texto del video</p>
+                </a>
+              </div><div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 473px;">
+              <!-- otro otro item -->
+              <a href="#link-al-video" tabindex="-1">
+                <img src="https://api.adorable.io/avatars/150/?rand=3" alt="video 1">
+                <h3>Titulo del video 3</h3>
+                <p>Texto del video</p>
+              </a>
+            </div>
+            <div class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide00" style="width: 473px;">
+              <!-- Contiene un item -->
+              <a href="#link-al-video" tabindex="-1">
+                <!-- Usa un link como caja de cada item para que al hacer click en donde sea, te mande al video -->
+                <img src="https://api.adorable.io/avatars/150/?rand=1" alt="video 1">
+                <!-- esto sería la imagen del video -->
+                <h3>Titulo del video 1</h3>
+                <!-- Puede ser un h3, o lo que quieras, mas bien es el titulo del video -->
+                <p>Texto del video</p>
+                <!-- Esto es opcional, si lo tienes, va, sino lo puedes quitar -->
+              </a>
+            </div>
+            <div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide01" style="width: 473px;">
+              <!-- otro item -->
+              <a href="#link-al-video" tabindex="0">
+                <img src="https://api.adorable.io/avatars/150/?rand=2" alt="video 1">
+                <h3>Titulo del video 2</h3>
+                <p>Texto del video</p>
+              </a>
+            </div>
+            <div class="slick-slide slick-current slick-active" data-slick-index="2" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide02" style="width: 473px;">
+              <!-- otro otro item -->
+              <a href="#link-al-video" tabindex="0">
+                <img src="https://api.adorable.io/avatars/150/?rand=3" alt="video 1">
+                <h3>Titulo del video 3</h3>
+                <p>Texto del video</p>
+              </a>
+            </div>
+            <div class="slick-slide slick-cloned" data-slick-index="3" aria-hidden="true" tabindex="-1" style="width: 473px;">
+              <!-- Contiene un item -->
+              <a href="#link-al-video" tabindex="-1">
+                <!-- Usa un link como caja de cada item para que al hacer click en donde sea, te mande al video -->
+                <img src="https://api.adorable.io/avatars/150/?rand=1" alt="video 1">
+                <!-- esto sería la imagen del video -->
+                <h3>Titulo del video 1</h3>
+                <!-- Puede ser un h3, o lo que quieras, mas bien es el titulo del video -->
+                <p>Texto del video</p>
+                <!-- Esto es opcional, si lo tienes, va, sino lo puedes quitar -->
+              </a>
+            </div>
+            <div class="slick-slide slick-cloned" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 473px;"><!-- otro item -->
+            <a href="#link-al-video" tabindex="-1">
+              <img src="https://api.adorable.io/avatars/150/?rand=2" alt="video 1">
+              <h3>Titulo del video 2</h3>
+              <p>Texto del video</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <button id="btn" type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;">Next</button>
+      <ul class="slick-dots" style="display: block;" role="tablist">
+        <li class="" aria-hidden="true" role="presentation" aria-selected="true" aria-controls="navigation00" id="slick-slide00">
+          <button type="button" data-role="none" role="button" tabindex="0">1</button>
+        </li>
+        <li aria-hidden="false" role="presentation" aria-selected="false" aria-controls="navigation01" id="slick-slide01" class="slick-active">
+          <button type="button" data-role="none" role="button" tabindex="0">2</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Fin section CAROUSEL -->	
+
 		<section id="galeria">
 			<div class="container">
 				<div class="row galeria">
@@ -222,9 +312,10 @@
 
 			
 						
-			
-			 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+			 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+			 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> -->
 			 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+			 <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 			 <!-- <script text="text/javasctipt" src="bootstrap-3.3.6-dist/js/npm.js"></script> -->
 			 <script src="bootstrap-3.3.6-dist/js/main.js"></script>
 			</body>
