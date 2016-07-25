@@ -48,3 +48,35 @@ $(document).ready(function() {
             $('#capa').hide();
     });
 });
+$(document).ready(function(){
+$('.videos').slick({
+dots: true, // Esto muestra los puntos abajo del slider
+infinite: true, // Esto hace que el slider nunca termine 
+speed: 300, // Esto es la velocidad en milisegundos que el slider hará la animación al moverse
+slidesToShow: 2, // Esto define cuantos items se muestran
+slidesToScroll: 2, // Esto define cuantos elementos se mueven a la vez, al navegar con las flechas
+responsive: [ // Este arreglo define los breakpoints (igual que los media-queries en css) para el responsive
+// Cada objeto es un breakpoint
+{
+breakpoint: 768, // Cuando el ancho de pantalla es menor o igual a 768px, se ocupa este...
+settings: {
+arrows: false, // No muestra las flechas
+dots: false, // No muestra los puntos abajo
+slidesToShow: 2, // Muestra dos slides o items a la vez
+slidesToScroll: 1 // Cambia de a 1 item en cada movimiento
+}
+}, // Acá termina un breakpoint
+// Acá comienza otro breakpoint
+{
+breakpoint: 480, // Cuando el ancho de pantalla es menor o igual a 480px, se ocupa este...
+settings: {
+arrows: false,
+dots: false,
+slidesToShow: 1, // Muestra un slide o item a la vez -> es lo unico diferente de lo anterior
+slidesToScroll: 1
+}
+} // Acá termina otro breakpoint
+] // Acá se cierra el arreglo del responsive
+}); // Acá se cierra todo lo que define slick-slider
+
+}); // Acá se cierra la función (document).ready de jquery
