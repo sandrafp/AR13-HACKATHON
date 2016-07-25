@@ -100,12 +100,6 @@ ul.redes i {
   margin-top: 50px;
   padding: 15px; }
 
-.slick-prev:before {
-  color: #e51960; }
-
-.slick-next:before {
-  color: #e51960; }
-
 /*fin galeria*/
 /*ANUNCIOS*/
 .anuncio-responsive {
@@ -134,8 +128,20 @@ ul.redes i {
   margin-top: 10px;
   cursor: pointer; }
 
+/* Carrusel */
+.carousel-control {
+  padding-top: 5%;
+  width: 5%; }
+
+.item .col-sm-2 img {
+  height: 100px;
+  width: 300px; }
+
 /*iconos redes-sociales*/
 /*Estilos home banner*/
+.fondo-1 {
+  padding-top: 150px; }
+
 .banner-principal {
   margin-bottom: 15px; }
 
@@ -180,7 +186,7 @@ header {
     padding-top: 20px; }
     header .navbar-nav a {
       color: white;
-      font-size: 25px;
+      font-size: 20px;
       font-family: 'Open Sans Condensed', sans-serif; }
     header .navbar-nav a:hover {
       background-color: rgba(245, 27, 102, 0.5); }

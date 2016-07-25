@@ -1,5 +1,5 @@
 /*Estilos home banner*/
-
+.fondo-1 { padding-top: 150px; }
 .banner-principal{
 	margin-bottom: 15px;
 	
@@ -11,4 +11,5 @@
 }
 @media (min-width: 768px) {
  .banner-caption{  padding-bottom: 30px;font-size: 24px; }
+ // .carousel-inner { height: 400px; }
 }

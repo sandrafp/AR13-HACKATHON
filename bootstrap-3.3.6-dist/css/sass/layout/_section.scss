@@ -61,12 +61,6 @@ ul.redes i {display: block;font-size: 21px;line-height: 37px;margin-right: 2px;}
 .capa-color{ position: relative; } /*efectos hover */
 .color-grey { @include capa-hover; } /*efectos hover img videos*/
 .hid { font-size: 20px; color: $blanco; border-radius: 50%; line-height: 25px; border: 2px solid $blanco; margin-top: 50px; padding: 15px; }
-.slick-prev:before {
-  color: $bg-rosa;
-}
-.slick-next:before {
-  color: $bg-rosa;
-} 
 /*fin galeria*/
 
 /*ANUNCIOS*/
@@ -99,3 +93,16 @@ ul.redes i {display: block;font-size: 21px;line-height: 37px;margin-right: 2px;}
 }
 .face-box { border: 2px solid $facebook; margin-top: 10px; cursor: pointer; }
 
+/* Carrusel */
+.carousel-control {
+  padding-top:5%;
+  width:5%;
+}
+.item {
+  .col-sm-2 {
+    img {
+      height: 100px;
+      width: 300px;
+    }
+  }
+}
