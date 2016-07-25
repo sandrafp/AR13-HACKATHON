@@ -59,7 +59,13 @@ ul.redes i {display: block;font-size: 21px;line-height: 37px;margin-right: 2px;}
 }
 .capa-color{ position: relative; } /*efectos hover */
 .color-grey { @include capa-hover; } /*efectos hover img videos*/
-.hid { font-size: 20px; color: $blanco; border-radius: 50%; line-height: 25px; border: 2px solid $blanco; margin-top: 90px; padding: 15px; } 
+.hid { font-size: 20px; color: $blanco; border-radius: 50%; line-height: 25px; border: 2px solid $blanco; margin-top: 90px; padding: 15px; }
+.slick-prev:before {
+  color: $bg-rosa;
+}
+.slick-next:before {
+  color: $bg-rosa;
+} 
 /*fin galeria*/
 
 /*ANUNCIOS*/
