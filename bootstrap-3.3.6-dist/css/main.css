@@ -1,9 +1,6 @@
 /*colores*/
 /*redes-sociales*/
 /*efectos*/
-#btn {
-  background-color: black; }
-
 nav.navbar.navbar-default {
   background: #e51960 !important; }
 
@@ -114,6 +111,13 @@ ul.redes i {
     margin-bottom: 0;
     border-top: none;
     padding-top: none; } }
+/* CARRUSEL */
+.slick-prev:before {
+  color: #e51960; }
+
+.slick-next:before {
+  color: #e51960; }
+
 /*iconos redes-sociales*/
 /*Estilos home banner*/
 .banner-principal {
